@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///D:/Projects/dompet-bubu/web/src/app/(user)/goals/page.tsx"],"sourcesContent":["export default function GoalsPage() {\r\n  return <h1>Goals</h1>;\r\n}"],"names":["GoalsPage"],"mappings":";;;;;;AAAe,SAASA;IACtB,qBAAO,8OAAC;kBAAG;;;;;;AACb"}},
-    {"offset": {"line": 36, "column": 0}, "map": {"version":3,"sources":["file:///D:/Projects/dompet-bubu/web/src/app/favicon.ico.mjs%20(structured%20image%20object)"],"sourcesContent":["import src from \"IMAGE\";\nexport default { src, width: 256, height: 256 }\n"],"names":["src","width","height"],"mappings":";;;;AAAA;;uCACe;IAAEA,KAAAA,0IAAG;IAAEC,OAAO;IAAKC,QAAQ;AAAI"}}]
-}
