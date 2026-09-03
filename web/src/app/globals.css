@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+:root {
+  /* Base */
+  --background: #fffafb;
+  --foreground: #3d3741;
+
+  /* Dompet Bubu Brand */
+  --color-bubu-primary: #f59bb5;
+  --color-bubu-primary-soft: #fde7ee;
+  --color-bubu-primary-hover: #ec7f9f;
+
+  --color-bubu-purple: #a99adf;
+  --color-bubu-purple-soft: #eeeafd;
+
+  --color-bubu-peach: #ffc9a5;
+  --color-bubu-peach-soft: #fff0e6;
+
+  --color-bubu-yellow: #f8d878;
+  --color-bubu-yellow-soft: #fff8d9;
+
+  /* Financial */
+  --color-bubu-income: #65b891;
+  --color-bubu-income-soft: #e4f5eb;
+
+  --color-bubu-expense: #ed7777;
+  --color-bubu-expense-soft: #fde8e8;
+
+  /* Neutral */
+  --color-bubu-card: #ffffff;
+  --color-bubu-border: #f0e7eb;
+  --color-bubu-muted: #91878d;
+  --color-bubu-heading: #3d3741;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-bubu-primary: var(--color-bubu-primary);
+  --color-bubu-primary-soft: var(--color-bubu-primary-soft);
+  --color-bubu-primary-hover: var(--color-bubu-primary-hover);
+
+  --color-bubu-purple: var(--color-bubu-purple);
+  --color-bubu-purple-soft: var(--color-bubu-purple-soft);
+
+  --color-bubu-peach: var(--color-bubu-peach);
+  --color-bubu-peach-soft: var(--color-bubu-peach-soft);
+
+  --color-bubu-yellow: var(--color-bubu-yellow);
+  --color-bubu-yellow-soft: var(--color-bubu-yellow-soft);
+
+  --color-bubu-income: var(--color-bubu-income);
+  --color-bubu-income-soft: var(--color-bubu-income-soft);
+
+  --color-bubu-expense: var(--color-bubu-expense);
+  --color-bubu-expense-soft: var(--color-bubu-expense-soft);
+
+  --color-bubu-card: var(--color-bubu-card);
+  --color-bubu-border: var(--color-bubu-border);
+  --color-bubu-muted: var(--color-bubu-muted);
+  --color-bubu-heading: var(--color-bubu-heading);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--background);
+}
+
+body {
+  min-height: 100vh;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
